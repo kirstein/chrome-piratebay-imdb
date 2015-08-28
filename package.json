@@ -1,0 +1,34 @@
+{
+  "name": "chrome-piratebay-imdb",
+  "version": "0.0.0",
+  "description": "Show imdb ratings for piratebay movies",
+  "homepage": "",
+  "repository": "kirstein/chrome-piratebay-imdb",
+  "author": {
+    "name": "Mikk Kirstein",
+    "email": "github@kolmas.org",
+    "url": ""
+  },
+  "files": [
+    "app"
+  ],
+  "main": "lib/index.js",
+  "keywords": [],
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "gulp": "^3.6.0",
+    "gulp-shell": "^0.4.2",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0",
+    "watchify": "^3.3.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "private": true,
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.1",
+    "omdbjs": "^0.1.1"
+  }
+}

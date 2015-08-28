@@ -1,0 +1,19 @@
+{
+  "name": "piratebay imdb",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "js": [
+      "main.js"
+    ],
+    "run_at": "document_end",
+    "all_frames": false
+  }]
+}
